@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Logging;
 using RestWithASPNETUdemy.Business;
 using RestWithASPNETUdemy.Data.VO;
+using RestWithASPNETUdemy.Model;
 
 namespace RestWithASPNETUdemy.Controllers
 {
@@ -13,7 +14,7 @@ namespace RestWithASPNETUdemy.Controllers
 
         private readonly ILogger<BookController> _logger;
 
-        private readonly IBookBusiness _bookBusiness;
+        private  readonly IBookBusiness _bookBusiness;
 
         public BookController(ILogger<BookController> logger, IBookBusiness bookBusiness)
         {
