@@ -79,7 +79,7 @@ namespace RestWithASPNETUdemy.Controllers
 
 
         [HttpDelete("{id}")]
-        [ProducesResponseType((204)]
+        [ProducesResponseType((204))]
         [ProducesResponseType((400))]
         [ProducesResponseType((401))]
         [TypeFilter(typeof(HyperMediaFilter))]
